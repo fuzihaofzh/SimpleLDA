@@ -19,3 +19,5 @@ import ldalib
 X = np.random.randint(0, 5, (5, 3))
 doc_topic, topic_word = ldalib.lda(X, 10, iter_n = 100)
 ```
+### Comparison
+Some comparison experiment is done on recovering block matrix experiment which is in recover_block_test.ipynb. It can be observerd that this model works and the time consumption is low.
